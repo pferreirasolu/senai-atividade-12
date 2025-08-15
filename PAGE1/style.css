@@ -39,8 +39,21 @@ box-sizing: border-box;
     align-items: center; /*Centralizar horizontalmente*/
 }
 
+.page-container{
+justify-content: center;
+height: 80vh;
+align-items: center;
+}
 
-.image-central{
-width: 50px;
+.page-container img{
+height: 400px;
+margin-bottom: 200px;
+
 
 }
+
+.descricao{
+height:50%;
+    
+    
+    }
