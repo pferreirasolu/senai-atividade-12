@@ -42,18 +42,19 @@ font-family: inter;
 
     display: flex;
     width: 100vw;
-    height: 415px;
-    display: flex;
     justify-content: center;
-    align-items: center;
+    margin-top: 10px;
+
 
 }
 
+.page-container img{    
+    width: 90vh;
+    margin: 40px;
 
-.page-container img {
-width: 92vw;
-margin-top: 50px;
+
 }
+
 
 .meutit h3{
     margin-inline-start: 60px;    
