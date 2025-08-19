@@ -7,63 +7,57 @@ box-sizing: border-box;
 font-family: inter;
 }
 
-
-
-
 .cabecalho {
     width: 100vw;/*Largura da tela*/
     height: 71PX;
     background-color: #3750B3;
     display: flex;
-    color: white;
     font-size: 12px;
     font-family: Inter;
     font-weight: 400;
-    justify-content: space-between ;
-    padding: 10px;
-    p{padding: 15px;}
+    justify-content: space-between;
+    padding-left: 120px;
+    padding-right: 120px;
+    align-items: center;
 }
 
-.logo{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center; /*Centralizar horizontalmente*/
-    margin-inline-start: 40px;    
+.logo {
+    color: white;
+    text-decoration: none;
+
 }
 
-.pagina {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center; /*Centralizar horizontalmente*/
-    margin-inline-end: 40px;  
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin-left: 18px;
+
 }
 
 .page-container{
-
-    display: flex;
-    width: 100vw;
-    height: 415px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding-left: 120px;
+    padding-right: 120px;
 
 }
 
-
-.page-container img {
-width: 92vw;
-margin-top: 50px;
-}
-
-.meutit h3{
-    margin-inline-start: 60px;    
-    margin-top: 50px;
-    font-size: 50px;
-    font-weight: 400;
+.foto {
+background-image: url("../assets/imgs/Rectangle 3.png");
+width: 100%;
+height: 427px;
+background-size: cover;
+background-position: center;
+margin-top: 100px;
+margin-bottom: 100px;
 
 }
 
-.meutit p{
-    margin-inline-start: 60px;   
+.titulo{
+margin-top: 80px;
+font-size: 64px;
+font-weight: normal;
+}
+
+.descricao{
+font-size: 32px;
 
 }
